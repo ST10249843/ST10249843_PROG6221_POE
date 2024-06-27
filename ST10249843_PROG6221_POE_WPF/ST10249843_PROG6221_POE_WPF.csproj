@@ -64,6 +64,9 @@
     <Compile Include="EnterRecipeWindow.xaml.cs">
       <DependentUpon>EnterRecipeWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FilterRecipesWindow.xaml.cs">
+      <DependentUpon>FilterRecipesWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RecipeMethods.cs" />
     <Compile Include="RecipeProperties.cs" />
     <Page Include="AddIngredientWindow.xaml">
@@ -75,6 +78,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EnterRecipeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FilterRecipesWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
