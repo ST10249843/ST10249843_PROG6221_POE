@@ -72,6 +72,9 @@
     <Compile Include="ResetQuantitiesWindow.xaml.cs">
       <DependentUpon>ResetQuantitiesWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ScaleRecipeWindow.xaml.cs">
+      <DependentUpon>ScaleRecipeWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="AddIngredientWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -101,6 +104,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="ResetQuantitiesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ScaleRecipeWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
