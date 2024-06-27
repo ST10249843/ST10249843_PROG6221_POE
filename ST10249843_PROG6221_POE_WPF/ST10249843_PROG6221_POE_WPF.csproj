@@ -58,9 +58,16 @@
     <Compile Include="AddIngredientWindow.xaml.cs">
       <DependentUpon>AddIngredientWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DisplayWindow.xaml.cs">
+      <DependentUpon>DisplayWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RecipeMethods.cs" />
     <Compile Include="RecipeProperties.cs" />
     <Page Include="AddIngredientWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DisplayWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
